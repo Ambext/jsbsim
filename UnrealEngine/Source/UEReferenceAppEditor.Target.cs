@@ -8,8 +8,8 @@ public class UEReferenceAppEditorTarget : TargetRules
 	public UEReferenceAppEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-        //DefaultBuildSettings = BuildSettingsVersion.V2;
-        DefaultBuildSettings = BuildSettingsVersion.V5;
+		//DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.V5;
         ExtraModuleNames.AddRange( new string[] { "UEReferenceApp" } );
 	}
 }
